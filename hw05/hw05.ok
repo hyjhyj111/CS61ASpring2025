@@ -1,28 +1,26 @@
 {
-    "name": "Homework 6",
-    "endpoint": "cal/cs61a/sp25/hw06",
+    "name": "Homework 5",
+    "endpoint": "cal/cs61a/sp25/hw05",
     "src": [
-        "hw06.py"
+        "hw05.py"
     ],
     "tests": {
         "hw*.py": "doctest",
         "tests/*.py": "ok_test"
     },
     "default_tests": [
-        "VendingMachine",
-        "midsem_survey",
-        "store_digits",
-        "deep_map_mut",
-        "prune_small",
-        "delete"
+        "hailstone",
+        "merge",
+        "stair_ways",
+        "yield_paths"
     ],
     "protocols": [
         "restore",
         "file_contents",
-        "help",
-        "grading",
         "analytics",
+        "help",
         "unlock",
+        "grading",
         "backup"
     ]
 }
